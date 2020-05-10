@@ -1,0 +1,8 @@
+./swanms_submit --notebook=SimpleAPI.ipynb --server=http://swanms.cern.ch/submit
+
+curl http://137.138.31.164:8888/name/get
+curl http://137.138.31.164:8888/name/set/avner
+curl http://137.138.31.164:8888/name/get
+
+#run this and open the notebook
+./swanms_submit --notebook=InferenceService.ipynb --server=http://swanms.cern.ch/submit

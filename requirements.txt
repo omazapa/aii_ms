@@ -1,0 +1,5 @@
+jupyter
+jupyter_kernel_gateway
+flask-restful
+flask-apidoc
+
